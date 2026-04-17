@@ -1,0 +1,41 @@
+# ========================================
+#  Aura Voice AI Assistant - Dependencies
+# ========================================
+
+# --- AI / LLM ---
+groq                  # Groq API (ultra-fast LLM)
+openai                # OpenAI fallback (optional)
+
+# --- Voice / Audio ---
+speechrecognition     # Speech-to-text (Google STT free tier)
+pyttsx3               # Text-to-speech (offline fallback)
+edge-tts              # Premium Human Voice (Microsoft Edge TTS)
+pygame                # Audio playback for TTS MP3s
+pyaudio               # Microphone input
+pvporcupine           # Wake word detection ("Aura")
+
+# --- NLP / Intent Detection ---
+spacy                 # NLP for intent & entity extraction
+# After install, run: python -m spacy download en_core_web_sm
+
+# --- Automation ---
+pyautogui             # GUI automation (mouse/keyboard)
+selenium              # Browser automation
+webdriver-manager     # Auto-manage ChromeDriver
+playwright            # WhatsApp Web automation (fast, reliable, free)
+pywinthumb            # Windows thumbnails (optional)
+psutil                # System info (CPU, memory, battery)
+screen-brightness-control  # Control screen brightness
+comtypes              # Windows volume control
+pycaw                 # Windows audio control
+
+# --- APIs ---
+requests              # HTTP requests for all APIs
+python-dotenv         # Load .env file
+newsapi-python        # News API client
+
+# --- Utilities ---
+schedule              # Scheduling reminders/timers
+colorama              # Colored terminal output
+rich                  # Beautiful terminal UI (optional)
+plyer                 # Desktop notifications for reminders
